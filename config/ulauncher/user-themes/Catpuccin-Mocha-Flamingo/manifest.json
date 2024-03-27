@@ -1,0 +1,13 @@
+
+{
+    "manifest_version": "1",
+    "name": "Catpuccin-Mocha-Flamingo",
+    "display_name": "Catpuccin Mocha Flamingo",
+    "extend_theme": "light",
+    "css_file": "theme.css",
+    "css_file_gtk_3.20+": "theme-gtk-3.20.css",
+    "matched_text_hl_colors": {
+        "when_selected": "#f2cdcd",
+        "when_not_selected": "#f2cdcd"
+    }
+}

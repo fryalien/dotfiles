@@ -1,0 +1,13 @@
+
+{
+    "manifest_version": "1",
+    "name": "Catpuccin-Mocha-Rosewater",
+    "display_name": "Catpuccin Mocha Rosewater",
+    "extend_theme": "light",
+    "css_file": "theme.css",
+    "css_file_gtk_3.20+": "theme-gtk-3.20.css",
+    "matched_text_hl_colors": {
+        "when_selected": "#f5e0dc",
+        "when_not_selected": "#f5e0dc"
+    }
+}
