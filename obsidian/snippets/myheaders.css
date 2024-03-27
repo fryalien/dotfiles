@@ -1,0 +1,38 @@
+4/* << EDITOR and PREVIEW HEADERS >> */
+
+.cm-header-1, .markdown-preview-view h1 {
+  font-size: 1.2em;
+  color: #CBA6F7;
+  font-weight: 600 !important;
+}
+
+.cm-header-2, .markdown-preview-view h2 {
+  font-size: 1.07em;
+  color: #CBA6F7;
+  font-weight: 400 !important;
+}
+
+.cm-header-3, .markdown-preview-view h3 {
+  font-size: 1.05em;
+  color: #CBA6F7;
+  font-weight: 400 !important;
+}
+
+.cm-header-4, .markdown-preview-view h4 {
+  font-size: 1.03em;
+  color: #797972;
+  font-weight: 400 !important;
+}
+
+.cm-header-5, .markdown-preview-view h5 {
+  font-size: 1.01em;
+  color: #797972;
+  font-weight: 400 !important;
+}
+
+.cm-header-6, .markdown-preview-view h6 {
+  font-size: 1em;
+  color: #797972;
+  font-weight: 400 !important;
+}
+Angel

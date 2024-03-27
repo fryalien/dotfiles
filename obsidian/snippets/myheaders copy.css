@@ -1,0 +1,50 @@
+/* Change header size in Edit mode */
+.empty-state-title, .cm-header-1 {
+  font-size: 17px;
+}
+
+.cm-header-2 {
+  font-size: 15px;
+}
+
+.cm-header-3 {
+  font-size: 15px;
+}
+
+.cm-header-4 {
+  font-size: 15px;
+}
+
+.cm-header-5 {
+  font-size: 14px;
+}
+
+.cm-header-6 {
+  font-size: 13px;
+}
+
+/* Change header size in Preview mode */
+.empty-state-title, .markdown-preview-view h1 {
+  font-size: 17px;
+}
+
+.markdown-preview-view h2 {
+  font-size: 15px;
+}
+
+.markdown-preview-view h3 {
+  font-size: 15px;
+}
+
+.markdown-preview-view h4 {
+  font-size: 15px;
+}
+
+.markdown-preview-view h5 {
+  font-size: 14px;
+}
+
+.markdown-preview-view h6 {
+  font-size: 13px;
+  font-weight: bold;
+}

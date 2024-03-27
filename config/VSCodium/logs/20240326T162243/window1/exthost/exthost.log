@@ -1,0 +1,22 @@
+2024-03-26 16:22:45.591 [info] Extension host with pid 32945 started
+2024-03-26 16:22:45.757 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-26 16:22:45.835 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-26 16:22:45.859 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-26 16:22:45.887 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-26 16:22:45.936 [info] Eager extensions activated
+2024-03-26 16:22:45.957 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-26 16:22:45.959 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-26 16:22:45.966 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-03-26 16:22:59.912 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-26 16:22:59.918 [info] Extension host with pid 32945 exiting with code 0
+2024-03-26 16:23:01.113 [info] Extension host with pid 33010 started
+2024-03-26 16:23:01.113 [info] Skipping acquiring lock for /home/y/.config/VSCodium/User/workspaceStorage/c6dd29cfbd1ab27f7659a03c76d65bec.
+2024-03-26 16:23:01.151 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-03-26 16:23:01.165 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-26 16:23:01.177 [info] Eager extensions activated
+2024-03-26 16:23:01.181 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-26 16:23:01.185 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-26 16:23:01.192 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-03-26 16:23:04.324 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-03-26 16:23:08.334 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-26 16:23:08.342 [info] Extension host with pid 33010 exiting with code 0
