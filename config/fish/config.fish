@@ -17,7 +17,7 @@ end
 
 # ALIASES
 # INSTALL PACKAGES
-abbr u 'sudo pacman -Syyu'
+abbr u 'sudo pacman -Syu'
 abbr i 'sudo pacman -S'
 abbr pkr 'sudo pacman -Rs'
 abbr pks 'sudo pacman -Ss'
