@@ -17,10 +17,15 @@ style = "Regular"
 
 [window]
 opacity = 0.8
+decorations = "None"
 
 [window.padding]
 x = 15
 y = 15
+
+[cursor.style]
+shape = "Block"
+blinking = "Always"
 
 [selection]
 save_to_clipboard = true
