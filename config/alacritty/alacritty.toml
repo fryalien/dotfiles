@@ -1,0 +1,29 @@
+import = [
+  # uncomment the flavour you want below:
+  # "~/.config/alacritty/catppuccin-latte.toml"
+  # "~/.config/alacritty/catppuccin-frappe.toml"
+  # "~/.config/alacritty/catppuccin-macchiato.toml"
+  # "~/.config/alacritty/catppuccin-mocha.toml"
+  # "~/.config/alacritty/tokyo-night.toml"
+  "~/.config/alacritty/tokyo-night-storm.toml"
+]
+
+[font]
+size = 11.0
+
+[font.normal]
+family = "Hack"
+style = "Regular"
+
+[window]
+opacity = 0.8
+
+[window.padding]
+x = 15
+y = 15
+
+[selection]
+save_to_clipboard = true
+
+[shell]
+program = "/usr/bin/fish"
