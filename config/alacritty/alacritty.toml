@@ -5,8 +5,20 @@ import = [
   # "~/.config/alacritty/catppuccin-macchiato.toml"
   # "~/.config/alacritty/catppuccin-mocha.toml"
   # "~/.config/alacritty/tokyo-night.toml"
-  "~/.config/alacritty/tokyo-night-storm.toml"
+  # "~/.config/alacritty/tokyo-night-storm.toml"
+  # "~/.config/alacritty/tokyonight_day.toml"
+  # "~/.config/alacritty/tokyonight_moon.toml"
+  "~/.config/alacritty/tokyonight_night.toml"
+  # "~/.config/alacritty/tokyonight_storm.toml"
 ]
+
+[window]
+decorations = "None"
+opacity = 0.8
+
+[window.padding]
+x = 10
+y = 10
 
 [font]
 size = 11.0
@@ -14,14 +26,6 @@ size = 11.0
 [font.normal]
 family = "Hack"
 style = "Regular"
-
-[window]
-opacity = 0.8
-decorations = "None"
-
-[window.padding]
-x = 15
-y = 15
 
 [cursor.style]
 shape = "Block"
