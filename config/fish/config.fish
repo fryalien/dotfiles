@@ -12,10 +12,12 @@ set fish_color_valid_path
 
 function fish_prompt
 #    echo (prompt_pwd) "> "
-echo (set_color -o 00d3b8)"➜ " (set_color -o 3daee9)(prompt_pwd)(set_color -o yellow) "✗ "
+echo (set_color -o 00d3b8)"➜" (set_color -o 3daee9)(prompt_pwd)(set_color -o yellow) "✗ "
 end
 
+#-------------------------
 # ALIASES
+#-------------------------
 # INSTALL PACKAGES
 abbr u 'sudo pacman -Syu'
 abbr i 'sudo pacman -S'
@@ -44,7 +46,7 @@ abbr no 'cd ~/MEGA/UTILS/NOTES/; micro'
 abbr pla 'pacman -Qe > ~/Downloads/pacman-all-list.md'
 abbr fl 'flatpak list > ~/Downloads/flatpak-list.md'
 
-# SHORCUTI ZA PROGRAME
+# SHORCUTS FOR PROGRAMS
 abbr v 'nvim'
 abbr V 'sudo nvim'
 abbr r 'ranger'
@@ -66,9 +68,14 @@ abbr 4k 'xrandr -s 3840x2160'
 abbr hd 'xrandr -s 1920x1080'
 
 # MELD CONFIG
-abbr fic 'meld ~/.config/fish/config.fish ~/BIGDATA/GitHub/dotfiles/fish/config.fish &; disown'
-abbr i3c 'meld ~/.config/i3/config ~/BIGDATA/GitHub/dotfiles/i3/config &; disown'
-abbr i3s 'meld ~/.config/i3/i3status.conf ~/BIGDATA/GitHub/dotfiles/i3/i3status.conf &; disown'
+abbr fic 'meld ~/.config/fish/config.fish ~/BIGDATA/GitHub/dotfiles/config/fish/config.fish &; disown'
+abbr i3c 'meld ~/.config/i3/config ~/BIGDATA/GitHub/dotfiles/config/i3/config &; disown'
+abbr i3s 'meld ~/.config/i3/i3status.conf ~/BIGDATA/GitHub/dotfiles/config/i3/i3status.conf &; disown'
+
+# SOURCE CONFIG FILES
+abbr fis 'source ~/.config/fish/config.fish'
+abbr zshs 'source ~/.zshrc'
+abbr bas ' source ~/.bashrc'
 
 # YOUTUBE DOWNLOAD
 abbr yab 'cd ~/Downloads/; yt-dlp -x --audio-format mp3 -f bestaudio '
@@ -83,10 +90,10 @@ abbr web '~/.local/bin/httpserv.sh'
 # git
 abbr gc 'cd /BIGDATA/git; git clone'
 
-#mygit
+#mygit config
 abbr gitfa 'git clone https://github.com/fryalien/dotfiles'
 
-# PACMAN
+# PACMAN clean packages
 abbr pkcl 'sudo paccache -r'
 
 # LOCKED PACMAN DATABASE
@@ -94,3 +101,11 @@ abbr pkcl 'sudo paccache -r'
 abbr lck 'lsof /var/lib/pacman/db.lck'
 # remove lock
 abbr rl 'rm /var/lib/pacman/db.lck'
+
+# FZF settings
+fzf --fish | source
+
+export FZF_DEFAULT_OPTS="--preview 'bat --color=always --style=numbers {}' --bind shift-up:preview-page-up,shift-down:preview-page-down"
+export FZF_DEFAULT_COMMAND="fd --type f"
+export FZF_CTRL_T_OPTS="--preview='less {}' --height=100% --bind shift-up:preview-page-up,shift-down:preview-page-down"
+export FZF_COMPLETION_DIR_COMMANDS="cd pushd rmdir tree"
