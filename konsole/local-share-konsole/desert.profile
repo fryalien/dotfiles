@@ -1,6 +1,6 @@
 [Appearance]
 ColorScheme=Desert-Konsole
-Font=Hack,14,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Font=monospace,15,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [Cursor Options]
 CursorShape=2
