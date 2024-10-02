@@ -253,7 +253,3 @@ assign [class="kasts"] 7
 assign [class="FreeTube"] 7
 assign [class="akregator"] 7
 assign [class="Xournalpp"] 8
-
-# AUTO LOCK
-exec_always --no-startup-id xset dpms 0 0 300 &
-exec_always --no-startup-id xss-lock -- i3lock -n -i ~/MEGA/UTILS/WALLPAPERS/i3lock.png &
