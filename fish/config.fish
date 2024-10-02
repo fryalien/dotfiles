@@ -10,10 +10,10 @@ set fish_greeting ""
 
 set fish_color_valid_path
 
-function fish_prompt
+#function fish_prompt
 #    echo (prompt_pwd) "> "
-echo (set_color -o 00d3b8)"➜" (set_color -o 3daee9)(prompt_pwd)(set_color -o yellow) "✗ "
-end
+#echo (set_color -o 00d3b8)"➜" (set_color -o 3daee9)(prompt_pwd)(set_color -o yellow) "✗ "
+#end
 
 #-------------------------
 # ALIASES
@@ -40,7 +40,6 @@ abbr ri 'rg -i'
 abbr s 'sudo'
 abbr d 'du -sh *'
 abbr sfi 'source ~/.config/fish/config.fish'
-abbr no 'cd ~/MEGA/UTILS/NOTES/; micro'
 
 # INSTALLED
 abbr pla 'pacman -Qe > ~/Downloads/pacman-all-list.md'
@@ -68,9 +67,9 @@ abbr 4k 'xrandr -s 3840x2160'
 abbr hd 'xrandr -s 1920x1080'
 
 # MELD CONFIG
-abbr fic 'meld ~/.config/fish/config.fish ~/BIGDATA/GitHub/dotfiles/config/fish/config.fish &; disown'
-abbr i3c 'meld ~/.config/i3/config ~/BIGDATA/GitHub/dotfiles/config/i3/config &; disown'
-abbr i3s 'meld ~/.config/i3/i3status.conf ~/BIGDATA/GitHub/dotfiles/config/i3/i3status.conf &; disown'
+abbr fic 'meld ~/.config/fish/config.fish ~/BIGDATA/GitHub/dotfiles/fish/config.fish &; disown'
+abbr i3c 'meld ~/.config/i3/config ~/BIGDATA/GitHub/dotfiles/i3/config &; disown'
+abbr i3s 'meld ~/.config/i3/i3status.conf ~/BIGDATA/GitHub/config/i3/i3status.conf &; disown'
 
 # SOURCE CONFIG FILES
 abbr fis 'source ~/.config/fish/config.fish'
@@ -91,7 +90,7 @@ abbr web '~/.local/bin/httpserv.sh'
 abbr gc 'cd /BIGDATA/git; git clone'
 
 #mygit config
-abbr gitfa 'git clone https://github.com/fryalien/dotfiles'
+abbr gdot 'git clone https://github.com/fryalien/dotfiles'
 
 # PACMAN clean packages
 abbr pkcl 'sudo paccache -r'
