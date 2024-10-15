@@ -19,11 +19,11 @@ set fish_color_valid_path
 # ALIASES
 #-------------------------
 # NIXOS
-abbr lsgen 'sudo nix-env --list-generations --profile /nix/var/nix/profiles/system'
 abbr rs 'sudo nixos-rebuild switch'
 abbr lst 'systemctl list-timers'
 abbr chup 'sudo nix-channel --update'
 abbr chls 'sudo nix-channel --list'
+abbr lsgen 'sudo nix-env --list-generations --profile /nix/var/nix/profiles/system'
 
 # CLI COMMANDS
 alias l 'eza -lh --group-directories-first'
@@ -33,10 +33,6 @@ abbr ri 'rg -i'
 abbr s 'sudo'
 abbr d 'du -sh *'
 abbr sfi 'source ~/.config/fish/config.fish'
-
-# INSTALLED
-abbr pla 'pacman -Qe > ~/Downloads/pacman-all-list.md'
-abbr fl 'flatpak list > ~/Downloads/flatpak-list.md'
 
 # SHORCUTS FOR PROGRAMS
 abbr v 'nvim'
@@ -84,15 +80,6 @@ abbr gc 'cd /BIGDATA/git; git clone'
 
 #mygit config
 abbr gdot 'git clone https://github.com/fryalien/dotfiles'
-
-# PACMAN clean packages
-abbr pkcl 'sudo paccache -r'
-
-# LOCKED PACMAN DATABASE
-# check if something is holding the lock
-abbr lck 'lsof /var/lib/pacman/db.lck'
-# remove lock
-abbr rl 'rm /var/lib/pacman/db.lck'
 
 # FZF settings
 fzf --fish | source
