@@ -18,16 +18,23 @@ set fish_color_valid_path
 #-------------------------
 # ALIASES
 #-------------------------
-# NIXOS
-abbr lsgen 'sudo nix-env --list-generations --profile /nix/var/nix/profiles/system'
-abbr rs 'sudo nixos-rebuild switch'
-abbr lst 'systemctl list-timers'
-abbr chup 'sudo nix-channel --update'
-abbr chls 'sudo nix-channel --list'
+# INSTALL PACKAGES
+abbr u 'sudo pacman -Syu'
+abbr i 'sudo pacman -S'
+abbr pkr 'sudo pacman -Rs'
+abbr pks 'sudo pacman -Ss'
+abbr f 'flatpak install'
+abbr fu 'flatpak update'
+abbr fr 'flatpak remove'
+abbr fs 'flatpak search'
+abbr fcl 'flatpak uninstall --unused'
+abbr fls 'flatpak list'
+abbr yi 'yay -S'
+abbr yup 'yay -Syu'
 
 # CLI COMMANDS
-alias l 'eza -lh --group-directories-first'
-alias la 'eza -lha --group-directories-first'
+alias l 'exa -lh --group-directories-first'
+alias la 'exa -lha --group-directories-first'
 abbr t 'btop'
 abbr ri 'rg -i'
 abbr s 'sudo'
