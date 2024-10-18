@@ -23,7 +23,9 @@ set $overlay0 #6c7086
 set $surface2 #585b70
 set $surface1 #45475a
 set $surface0 #313244
-set $base #1e1e2eCC
+set $base #1e1e2e
+#TRANSPARENT COLOR
+#set $base #1e1e2eCC
 set $mantle #181825
 set $crust #11111b
 
@@ -231,10 +233,10 @@ bar {
   status_command i3status -c /home/y/.config/i3/i3status.conf
 
 # HIDE TRAY ICONS
-  tray_output none
+# tray_output none
 
 # TRANSPARENT BARS
-i3bar_command i3bar --transparency
+# i3bar_command i3bar --transparency
 
 # CAT-THEME
   colors {
@@ -292,7 +294,7 @@ assign [class="Chromium-browser"] 2
 assign [class="dolphin"] 3
 assign [class="kwrite"] 4
 assign [class="Meld"] 4
-assign [class="KeePassXC"] 9
+assign [class="KeePassXC"] 5
 
 # LOCK SCREEN
 bindsym $mod+x exec i3lock --show-failed-attempts -i ~/Pictures/Outer-Space-Stars-Planets.png
