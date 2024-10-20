@@ -77,8 +77,13 @@ I /home/y/.local/share/plasmashell
 I /home/y/.local/share/user-places.xbel
 I /home/y/.local/share/user-places.xbel.tbcache
 I /home/y/.local/state/dolphinstaterc
+I /home/y/.local/state/gwenviewstaterc
 I /home/y/.local/state/katestaterc
 I /home/y/.local/state/kbackupstaterc
 I /home/y/.local/state/konsolestaterc
 I /home/y/.local/state/kwritestaterc
 I /home/y/.local/state/plasmashellstaterc
+I /home/y/.local/state/spectaclestaterc
+I /home/y/.local/state/systemsettingsstaterc
+I /home/y/.local/state/xdg-desktop-portal-kdestaterc
+I /home/y/.themes
