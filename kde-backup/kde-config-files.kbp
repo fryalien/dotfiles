@@ -5,9 +5,17 @@ R 0
 F 1
 C 0
 Z 0
+I /home/y/.config/autostart
+I /home/y/.config/fish
+I /home/y/.config/gtk-3.0
+I /home/y/.config/gtk-4.0
 I /home/y/.config/kate
 I /home/y/.config/kdedefaults
+I /home/y/.config/xsettingsd
+I /home/y/.config/baloofileinformationrc
+I /home/y/.config/baloofilerc
 I /home/y/.config/dolphinrc
+I /home/y/.config/filetypesrc
 I /home/y/.config/gwenviewrc
 I /home/y/.config/kactivitymanagerdrc
 I /home/y/.config/katerc
@@ -37,6 +45,7 @@ I /home/y/.config/plasma-org.kde.plasma.desktop-appletsrc
 I /home/y/.config/plasmanotifyrc
 I /home/y/.config/plasmarc
 I /home/y/.config/plasmashellrc
+I /home/y/.icons
 I /home/y/.local/share/applications
 I /home/y/.local/share/dolphin
 I /home/y/.local/share/gwenview
