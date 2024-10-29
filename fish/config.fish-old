@@ -33,8 +33,8 @@ abbr yi 'yay -S'
 abbr yup 'yay -Syu'
 
 # CLI COMMANDS
-alias l 'exa -lh --group-directories-first'
-alias la 'exa -lha --group-directories-first'
+alias l 'eza -lh --group-directories-first'
+alias la 'eza -lha --group-directories-first'
 abbr t 'btop'
 abbr ri 'rg -i'
 abbr s 'sudo'
