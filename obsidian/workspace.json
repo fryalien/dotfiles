@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-FRESH-INSTALL/i3-fresh-install.md",
+                "file": "homemanager-tldr.md",
                 "mode": "preview",
-                "source": true
-              }
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "homemanager-tldr"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,14 +68,17 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 238.5,
+    "collapsed": true
   },
   "right": {
     "id": "3554c6416db89009",
@@ -85,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-FRESH-INSTALL/i3-fresh-install.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -102,10 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-FRESH-INSTALL/i3-fresh-install.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -116,7 +127,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -124,9 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "00-FRESH-INSTALL/i3-fresh-install.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           },
           {
@@ -138,7 +151,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ]
