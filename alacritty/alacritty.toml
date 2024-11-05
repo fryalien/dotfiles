@@ -1,3 +1,4 @@
+[general]
 import = [
   # uncomment the flavour you want below:
   # "~/.config/alacritty/catppuccin-latte.toml"
@@ -34,5 +35,5 @@ blinking = "Always"
 [selection]
 save_to_clipboard = true
 
-[shell]
-program = "/usr/bin/fish"
+#[terminal.shell]
+#program = "/usr/bin/fish"
