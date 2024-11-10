@@ -10,10 +10,10 @@ set fish_greeting ""
 
 set fish_color_valid_path
 
-#function fish_prompt
+function fish_prompt
 #    echo (prompt_pwd) "> "
-#echo (set_color -o 00d3b8)"➜" (set_color -o 3daee9)(prompt_pwd)(set_color -o yellow) "✗ "
-#end
+echo (set_color -o 00d3b8)"➜" (set_color -o 3daee9)(prompt_pwd)(set_color -o yellow) "✗ "
+end
 
 #-------------------------
 # ALIASES
@@ -69,7 +69,7 @@ abbr hd 'xrandr -s 1920x1080'
 # MELD CONFIG
 abbr fic 'meld ~/.config/fish/config.fish ~/BIGDATA/GitHub/dotfiles/fish/config.fish &; disown'
 abbr i3c 'meld ~/.config/i3/config ~/BIGDATA/GitHub/dotfiles/i3/config &; disown'
-abbr i3s 'meld ~/.config/i3/i3status.conf ~/BIGDATA/GitHub/config/i3/i3status.conf &; disown'
+abbr i3s 'meld ~/.config/i3/i3status.conf ~/BIGDATA/GitHub/dotfiles/i3/i3status.conf &; disown'
 
 # SOURCE CONFIG FILES
 abbr fis 'source ~/.config/fish/config.fish'
