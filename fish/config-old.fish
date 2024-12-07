@@ -18,41 +18,19 @@ end
 #-------------------------
 # ALIASES
 #-------------------------
-# INSTALL PACKAGES WITH FEDORA
-#abbr u 'sudo dnf upgrade'
-#abbr i 'sudo dnf install'
-#abbr pkr 'sudo dnf remove'
-#abbr pks 'sudo dnf search'
-
-# INSTALL PACKAGES WITH ARCH
+# INSTALL PACKAGES
 abbr u 'sudo pacman -Syu'
 abbr i 'sudo pacman -S'
 abbr pkr 'sudo pacman -Rs'
 abbr pks 'sudo pacman -Ss'
-abbr yi 'yay -S'
-abbr pi 'paru -S'
-abbr upall 'yay -Syu'
-
-# INSTALL PACKAGES WITH UBUNTU
-#abbr u 'sudo apt update && sudo apt upgrade'
-#abbr i 'sudo apt install'
-#abbr pkr 'sudo apt remove'
-#abbr pks 'sudo apt search'
-
-# INSTALL PACKAGES WITH SUSE
-#abbr u 'sudo zypper update'
-#abbr i 'sudo zypper install'
-#abbr pkr 'sudo zypper remove'
-#abbr pks 'sudo zypper search'
-
-# INSTALL PACKAGES WITH FLATPAK
 abbr f 'flatpak install'
 abbr fu 'flatpak update'
 abbr fr 'flatpak remove'
 abbr fs 'flatpak search'
 abbr fcl 'flatpak uninstall --unused'
 abbr fls 'flatpak list'
-
+abbr yi 'yay -S'
+abbr yup 'yay -Syu'
 
 # CLI COMMANDS
 alias l 'eza -lh --group-directories-first'
@@ -77,6 +55,7 @@ abbr dw 'cd ~/Downloads'
 abbr dc 'cd ~/Documents'
 abbr pc 'cd ~/Pictures'
 abbr vd 'cd ~/Videos'
+abbr gh 'cd ~/BIGDATA/GitHub'
 
 # POWER
 abbr sd 'shutdown now'
@@ -85,6 +64,11 @@ abbr re 'reboot'
 # RESOLUTION
 abbr 4k 'xrandr -s 3840x2160'
 abbr hd 'xrandr -s 1920x1080'
+
+# MELD CONFIG
+abbr fic 'meld ~/.config/fish/config.fish ~/BIGDATA/GitHub/dotfiles/fish/config.fish &; disown'
+abbr i3c 'meld ~/.config/i3/config ~/BIGDATA/GitHub/dotfiles/i3/config &; disown'
+abbr i3s 'meld ~/.config/i3/i3status.conf ~/BIGDATA/GitHub/dotfiles/i3/i3status.conf &; disown'
 
 # SOURCE CONFIG FILES
 abbr fis 'source ~/.config/fish/config.fish'
@@ -95,6 +79,14 @@ abbr bas ' source ~/.bashrc'
 abbr yab 'cd ~/Downloads/; yt-dlp -x --audio-format mp3 -f bestaudio '
 abbr ya 'cd ~/Downloads/; yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 '
 abbr yv 'cd ~/Downloads/; yt-dlp '
+
+# PYTHON3 SERVER
+abbr py 'python3 -m http.server -b '
+abbr ip 'hostname -I'
+abbr web '~/.local/bin/httpserv.sh'
+
+# git
+abbr gc 'cd /BIGDATA/git; git clone'
 
 #mygit config
 abbr gdot 'git clone https://github.com/fryalien/dotfiles'
