@@ -2,6 +2,7 @@
 
 # CLI
 sudo pacman -S --noconfirm --needed eza
+sudo pacman -S --noconfirm --needed fastfetch
 sudo pacman -S --noconfirm --needed fish
 sudo pacman -S --noconfirm --needed fzf
 sudo pacman -S --noconfirm --needed imagemagick
