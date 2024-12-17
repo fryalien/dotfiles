@@ -1,0 +1,41 @@
+MenuBar=Disabled
+
+[ContextMenu]
+ShowCopyMoveMenu=true
+ShowViewMode=false
+
+[ExtractDialog]
+1920x1080 screen: Height=560
+1920x1080 screen: Width=1280
+
+[General]
+BrowseThroughArchives=true
+CloseActiveSplitView=false
+ShowFullPath=true
+ShowFullPathInTitlebar=true
+UseTabForSwitchingSplitView=true
+Version=202
+ViewPropsTimestamp=2024,3,23,7,22,33.877
+
+[IconsMode]
+PreviewSize=96
+
+[InformationPanel]
+dateFormat=ShortFormat
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[Notification Messages]
+ApplicationLanguageChangedWarning=false
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail,ffmpegthumbs
+
+[VersionControl]
+enabledPlugins=Git
