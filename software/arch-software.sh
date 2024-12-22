@@ -30,7 +30,9 @@ sudo pacman -S --noconfirm --needed vivaldi-widevine
 sudo pacman -S --noconfirm --needed vlc
 sudo pacman -S --noconfirm --needed wireshark-qt
 sudo pacman -S --noconfirm --needed yt-dlp
+sudo pacman -S --noconfirm --needed ufw gufw
 
+yay -S --noconfirm --needed paru
 paru -S --noconfirm --needed freefilesync-bin
 paru -S --noconfirm --needed localsend-bin
 paru -S --noconfirm --needed megasync-bin
