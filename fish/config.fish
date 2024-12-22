@@ -61,6 +61,8 @@ abbr t 'btop'
 abbr ri 'rg -i'
 abbr s 'sudo'
 abbr ff 'fastfetch'
+abbr efils 'efibootmgr'
+abbr efidel 'sudo efibootmgr --delete-bootnum --bootnum 000x'
 abbr d 'du -sh *'
 abbr sfi 'source ~/.config/fish/config.fish'
 
