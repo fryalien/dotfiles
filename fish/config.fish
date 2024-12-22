@@ -60,6 +60,7 @@ alias la 'eza -lha --group-directories-first'
 abbr t 'btop'
 abbr ri 'rg -i'
 abbr s 'sudo'
+abbr ff 'fastfetch'
 abbr d 'du -sh *'
 abbr sfi 'source ~/.config/fish/config.fish'
 
