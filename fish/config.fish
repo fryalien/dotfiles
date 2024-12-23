@@ -4,16 +4,55 @@ end
 
 set fish_greeting ""
 
+function fish_prompt
+    set_color -o 2B5BB7 # Set foreground color to blue
+    echo -n '┌─╴'
+
+    if test "$USER" = "root"
+        set_color -o C80A12 # Set foreground color to red for root user
+    else
+        set_color -o blue # Set foreground color to blue for regular user
+    end
+
+
+    echo -n '('(date +%R)')'
+
+    set_color -o 2B5BB7
+    echo -n '-['
+
+    set_color -o white # Set foreground color to white(directory)
+    echo -n (pwd)
+
+    set_color -o 2B5BB7
+    echo -n ']'
+
+    set_color -o 2B5BB7
+    echo '' # Newline in Fish shell
+
+    echo -n '└─╴'
+    if test "$USER" = "root"
+        set_color -o C80A12 # Set foreground color to red for root user
+	echo -n '#'
+    else
+        set_color -o 2B5BB7 # Set foreground color to blue for regular user
+	echo -n '❯'
+    end
+
+    set_color normal # Reset color
+
+    echo -n ' '
+end
+
 #function fish_prompt
 #    echo " ~ "
 #end
 
 set fish_color_valid_path
 
-function fish_prompt
-#    echo (prompt_pwd) "> "
-echo (set_color -o 00d3b8)"➜" (set_color -o 3daee9)(prompt_pwd)(set_color -o yellow) "✗ "
-end
+#function fish_prompt
+#    echo (prompt_pwd) "❯ "
+#echo (set_color -o 00d3b8)"➜" (set_color -o 3daee9)(prompt_pwd)(set_color -o yellow) "✗ "
+#end
 
 #-------------------------
 # ALIASES
