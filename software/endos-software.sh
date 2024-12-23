@@ -3,12 +3,16 @@ sudo pacman -S --noconfirm --needed 7zip
 sudo pacman -S --noconfirm --needed calibre
 sudo pacman -S --noconfirm --needed eza
 sudo pacman -S --noconfirm --needed fastfetch
+sudo pacman -S --noconfirm --needed filelight
 sudo pacman -S --noconfirm --needed fish
 sudo pacman -S --noconfirm --needed fzf
 sudo pacman -S --noconfirm --needed gparted
 sudo pacman -S --noconfirm --needed gzip
 sudo pacman -S --noconfirm --needed imagemagick
+sudo pacman -S --noconfirm --needed kamoso
 sudo pacman -S --noconfirm --needed kbackup
+sudo pacman -S --noconfirm --needed kget
+sudo pacman -S --noconfirm --needed ksyslog
 sudo pacman -S --noconfirm --needed meld
 sudo pacman -S --noconfirm --needed micro
 sudo pacman -S --noconfirm --needed mpv
@@ -25,7 +29,9 @@ sudo pacman -S --noconfirm --needed unrar
 sudo pacman -S --noconfirm --needed unzip
 sudo pacman -S --noconfirm --needed vlc
 sudo pacman -S --noconfirm --needed wireshark-qt
+sudo pacman -S --noconfirm --needed yakuake
 sudo pacman -S --noconfirm --needed yt-dlp
+
 
 yay -S --noconfirm --needed paru
 paru -S --noconfirm --needed freefilesync-bin
