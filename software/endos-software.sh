@@ -18,7 +18,6 @@ sudo pacman -S --noconfirm --needed micro
 sudo pacman -S --noconfirm --needed mpv
 sudo pacman -S --noconfirm --needed nextcloud-client
 sudo pacman -S --noconfirm --needed obs-studio
-sudo pacman -S --noconfirm --needed onlyoffice-bin
 sudo pacman -S --noconfirm --needed rate-mirrors-bin
 sudo pacman -S --noconfirm --needed ripgrep
 sudo pacman -S --noconfirm --needed rsync
@@ -53,6 +52,7 @@ flatpak install -y io.github.shiftey.Desktop #GitHub Desktop
 flatpak install -y io.github.ungoogled_software.ungoogled_chromium
 flatpak install -y io.gitlab.librewolf-community
 flatpak install -y md.obsidian.Obsidian
+flatpak install -y org.onlyoffice.desktopeditors
 flatpak install -y me.kozec.syncthingtk
 flatpak install -y org.keepassxc.KeePassXC
 flatpak install -y org.nickvision.tubeconverter #Parabolic
