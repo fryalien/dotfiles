@@ -34,6 +34,7 @@ sudo pacman -S --noconfirm --needed yt-dlp
 
 yay -S --noconfirm --needed paru
 paru -S --noconfirm --needed freefilesync-bin
+paru -S --noconfirm --needed librewolf-bin
 paru -S --noconfirm --needed localsend-bin
 paru -S --noconfirm --needed megasync-bin
 paru -S --noconfirm --needed rustdesk-bin
@@ -50,7 +51,7 @@ flatpak install -y com.vscodium.codium
 flatpak install -y io.freetubeapp.FreeTube
 flatpak install -y io.github.shiftey.Desktop #GitHub Desktop
 flatpak install -y io.github.ungoogled_software.ungoogled_chromium
-flatpak install -y io.gitlab.librewolf-community
+#flatpak install -y io.gitlab.librewolf-community
 flatpak install -y md.obsidian.Obsidian
 flatpak install -y org.onlyoffice.desktopeditors
 flatpak install -y me.kozec.syncthingtk
