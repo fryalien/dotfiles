@@ -1,5 +1,6 @@
-# INSTALL PACKAGES
+#!/bin/bash
 
+# INSTALL PACKAGES
 sudo pacman -S --noconfirm --needed calibre
 sudo pacman -S --noconfirm --needed eza
 sudo pacman -S --noconfirm --needed fastfetch
@@ -7,6 +8,7 @@ sudo pacman -S --noconfirm --needed fish
 sudo pacman -S --noconfirm --needed fzf
 sudo pacman -S --noconfirm --needed gparted
 sudo pacman -S --noconfirm --needed gzip
+sudo pacman -S --noconfirm --needed dos2unix
 sudo pacman -S --noconfirm --needed imagemagick
 sudo pacman -S --noconfirm --needed kbackup
 sudo pacman -S --noconfirm --needed meld
