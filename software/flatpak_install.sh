@@ -11,7 +11,7 @@ flatpak install -y com.brave.Browser
 flatpak install -y com.github.tchx84.Flatseal
 flatpak install -y com.nextcloud.desktopclient.nextcloud
 flatpak install -y com.obsproject.Studio
-flatpak install -y com.rustdesk.RustDesk
+#flatpak install -y com.rustdesk.RustDesk
 flatpak install -y com.spotify.Client
 flatpak install -y com.vivaldi.Vivaldi
 flatpak install -y com.vscodium.codium
@@ -39,6 +39,8 @@ flatpak install -y org.tenacityaudio.Tenacity
 flatpak install -y org.videolan.VLC
 flatpak install -y org.wireshark.Wireshark
 #flatpak install -y uk.org.greenend.chiark.sgtatham.putty
+flatpak install -y io.github.flattool.Warehouse
+flatpak install -y org.dupot.easyflatpak
 
 # When KDE is not installed.
 #flatpak install -y org.kde.dolphin
