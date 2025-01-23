@@ -6,7 +6,7 @@ Font=monospace,15,-1,2,400,0,0,0,0,0,0,0,0,0,0,1
 CursorShape=2
 
 [General]
-Command=/run/current-system/sw/bin/fish
+Command=/usr/bin/fish
 Name=my-profile
 Parent=FALLBACK/
 TerminalMargin=10
