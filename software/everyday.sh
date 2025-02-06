@@ -11,6 +11,7 @@ sudo $pkmgr wireshark
 sudo $pkmgr kbackup
 sudo $pkmgr kwrite
 sudo $pkmgr gparted
+sudo $pkmgr imagemagick
 sudo $pkmgr micro
 sudo $pkmgr fish
 sudo $pkmgr fzf
@@ -44,6 +45,8 @@ flatpak install -y org.localsend.localsend_app
 flatpak install -y io.github.flattool.Warehouse
 flatpak install -y org.dupot.easyflatpak
 flatpak install -y org.geany.Geany
+flatpak install -y io.github.shiftey.Desktop
+flatpak install -y io.github.giantpinkrobots.varia
 
 
 ### freefilesync ###
