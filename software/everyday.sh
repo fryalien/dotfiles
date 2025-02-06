@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pkmgr="apt install"
+pkmgr="apt install -y"
 
 sudo $pkmgr fastfetch
 sudo $pkmgr wireshark
