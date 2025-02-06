@@ -19,7 +19,9 @@ sudo $pkmgr bat
 sudo $pkmgr eza
 sudo $pkmgr ripgrep
 sudo $pkmgr yt-dlp
-sudo $pkmgr fd-find
+#sudo $pkmgr fd-find
+#on arch fd
+sudo $pkmgr fd
 
 flatpak install -y com.github.tchx84.Flatseal
 flatpak install -y org.onlyoffice.desktopeditors
