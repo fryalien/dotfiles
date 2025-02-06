@@ -59,4 +59,4 @@ flatpak install -y io.github.giantpinkrobots.varia
 #wget https://mega.nz/linux/repo/xUbuntu_24.10/amd64/megasync-xUbuntu_24.10_amd64.deb && sudo apt install "$PWD/megasync-xUbuntu_24.10_amd64.deb"
 
 #arco
-sudo pacman -S --noconfirm --needed magasync-bin
+sudo pacman -S --noconfirm --needed megasync-bin
