@@ -49,6 +49,7 @@ flatpak install -y org.dupot.easyflatpak
 flatpak install -y org.geany.Geany
 flatpak install -y io.github.shiftey.Desktop
 flatpak install -y io.github.giantpinkrobots.varia
+flatpak install -y com.nextcloud.desktopclient.nextcloud
 
 
 ### freefilesync ###
