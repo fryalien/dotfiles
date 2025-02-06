@@ -42,6 +42,8 @@ flatpak install -y org.kde.tokodon
 flatpak install -y org.gnome.meld
 flatpak install -y org.localsend.localsend_app
 flatpak install -y io.github.flattool.Warehouse
+flatpak install -y org.dupot.easyflatpak
+flatpak install -y org.geany.Geany
 
 
 ### freefilesync ###
