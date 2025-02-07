@@ -24,6 +24,8 @@ sudo $pkmgr yt-dlp
 sudo $pkmgr fd
 
 flatpak install -y com.github.tchx84.Flatseal
+flatpak install -y io.github.flattool.Warehouse
+flatpak install -y org.dupot.easyflatpak
 flatpak install -y org.onlyoffice.desktopeditors
 flatpak install -y md.obsidian.Obsidian
 flatpak install -y org.videolan.VLC
@@ -44,8 +46,6 @@ flatpak install -y com.calibre_ebook.calibre
 flatpak install -y org.kde.tokodon
 flatpak install -y org.gnome.meld
 flatpak install -y org.localsend.localsend_app
-flatpak install -y io.github.flattool.Warehouse
-flatpak install -y org.dupot.easyflatpak
 flatpak install -y org.geany.Geany
 flatpak install -y io.github.shiftey.Desktop
 flatpak install -y io.github.giantpinkrobots.varia
