@@ -79,6 +79,7 @@ abbr pks 'sudo dnf search'
 #abbr yi 'yay -S'
 #abbr pi 'paru -S'
 #abbr upall 'yay -Syu'
+#abbr up 'paru -Syu --noconfirm; flatpak update -y'
 
 # INSTALL PACKAGES WITH UBUNTU
 #abbr u 'sudo apt update && sudo apt upgrade'
