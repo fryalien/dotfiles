@@ -1,10 +1,11 @@
 #!/bin/bash
 
+# ARCO
 pkmgr="pacman -S --noconfirm --needed"
-
-# ARCO "pacman -S --noconfirm --needed"
-# FEDORA "dnf -y"
-# KUBUNTU "apt install -y"
+# FEDORA
+#pkmgr="dnf -y"
+# KUBUNTU
+#pkmgr="apt install -y"
 
 sudo $pkmgr fastfetch
 sudo $pkmgr wireshark
