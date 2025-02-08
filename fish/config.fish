@@ -57,13 +57,6 @@ set fish_color_valid_path
 #-------------------------
 # ALIASES
 #-------------------------
-#INSTALL PACKAGES WITH MANDRAKE
-abbr u 'sudo dnf dsync --refresh'
-abbr dar 'sudo dnf autoremove'
-abbr dcl 'dnf clean all'
-abbr i 'sudo dnf install'
-abbr pkr 'sudo dnf remove'
-abbr pks 'sudo dnf search'
 
 # INSTALL PACKAGES WITH FEDORA
 #abbr u 'sudo dnf upgrade'
@@ -72,14 +65,14 @@ abbr pks 'sudo dnf search'
 #abbr pks 'sudo dnf search'
 
 # INSTALL PACKAGES WITH ARCH
-#abbr u 'sudo pacman -Syu'
-#abbr i 'sudo pacman -S'
-#abbr pkr 'sudo pacman -Rs'
-#abbr pks 'sudo pacman -Ss'
-#abbr yi 'yay -S'
-#abbr pi 'paru -S'
-#abbr upall 'yay -Syu'
-#abbr up 'paru -Syu --noconfirm; flatpak update -y'
+abbr u 'sudo pacman -Syu'
+abbr i 'sudo pacman -S'
+abbr pkr 'sudo pacman -Rs'
+abbr pks 'sudo pacman -Ss'
+abbr yi 'yay -S'
+abbr pi 'paru -S'
+abbr upall 'yay -Syu'
+abbr up 'paru -Syu --noconfirm; flatpak update -y'
 
 # INSTALL PACKAGES WITH UBUNTU
 #abbr u 'sudo apt update && sudo apt upgrade'
@@ -92,6 +85,14 @@ abbr pks 'sudo dnf search'
 #abbr i 'sudo zypper install'
 #abbr pkr 'sudo zypper remove'
 #abbr pks 'sudo zypper search'
+
+#INSTALL PACKAGES WITH MANDRAKE
+#abbr u 'sudo dnf dsync --refresh'
+#abbr dar 'sudo dnf autoremove'
+#abbr dcl 'dnf clean all'
+#abbr i 'sudo dnf install'
+#abbr pkr 'sudo dnf remove'
+#abbr pks 'sudo dnf search'
 
 # INSTALL PACKAGES WITH FLATPAK
 abbr f 'flatpak install'
