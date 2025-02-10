@@ -24,6 +24,7 @@ sudo $pkmgr yt-dlp
 #on arch fd
 sudo $pkmgr fd
 sudo $pkmgr tldr
+sudo $pkmgr mpv
 
 #arco
 sudo pacman -S --noconfirm --needed megasync-bin
