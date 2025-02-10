@@ -23,6 +23,10 @@ sudo $pkmgr yt-dlp
 #sudo $pkmgr fd-find
 #on arch fd
 sudo $pkmgr fd
+sudo $pkmgr tldr
+
+#arco
+sudo pacman -S --noconfirm --needed megasync-bin
 
 flatpak install -y com.github.tchx84.Flatseal
 flatpak install -y io.github.flattool.Warehouse
@@ -59,6 +63,3 @@ flatpak install -y com.nextcloud.desktopclient.nextcloud
 ### MEGASYNC ###
 #kubuntu
 #wget https://mega.nz/linux/repo/xUbuntu_24.10/amd64/megasync-xUbuntu_24.10_amd64.deb && sudo apt install "$PWD/megasync-xUbuntu_24.10_amd64.deb"
-
-#arco
-sudo pacman -S --noconfirm --needed megasync-bin
