@@ -17,6 +17,7 @@ sudo $pkmgr micro
 sudo $pkmgr fish
 sudo $pkmgr fzf
 sudo $pkmgr bat
+sudo $pkmgr btop
 sudo $pkmgr eza
 sudo $pkmgr ripgrep
 sudo $pkmgr yt-dlp
@@ -25,6 +26,11 @@ sudo $pkmgr yt-dlp
 sudo $pkmgr fd
 sudo $pkmgr tldr
 sudo $pkmgr mpv
+sudo $pkmgr tmux
+sudo $pkmgr neovim
+sudo $pkmgr git
+sudo $pkmgr ffmpeg
+sudo $pkmgr gparted
 
 #arco
 sudo pacman -S --noconfirm --needed megasync-bin
