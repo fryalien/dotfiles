@@ -47,8 +47,8 @@ sudo pacman -S --noconfirm --needed thunar-archive-plugin
 sudo pacman -S --noconfirm --needed thunar-volman
 
 # FLATPACKS
-#paru -S --noconfirm --needed freetube-bin
-#paru -S --noconfirm --needed github-desktop-bin
+#sudo pacman -S --noconfirm --needed freetube-bin
+sudo pacman -S --noconfirm --needed github-desktop-bin
 #paru -S --noconfirm --needed parabolic-git
 #paru -S --noconfirm --needed syncthing-gtk
 #paru -S --noconfirm --needed ungoogled-chromium
@@ -62,7 +62,7 @@ sudo pacman -S --noconfirm --needed thunar-volman
 flatpak install -y com.brave.Browser
 flatpak install -y com.vscodium.codium
 flatpak install -y io.freetubeapp.FreeTube
-flatpak install -y io.github.shiftey.Desktop #GitHub Desktop
+#flatpak install -y io.github.shiftey.Desktop #GitHub Desktop
 flatpak install -y io.github.ungoogled_software.ungoogled_chromium
 flatpak install -y io.gitlab.librewolf-community
 flatpak install -y md.obsidian.Obsidian
