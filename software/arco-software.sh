@@ -34,6 +34,7 @@ sudo pacman -S --noconfirm --needed wireshark-qt
 sudo pacman -S --noconfirm --needed yt-dlp
 sudo pacman -S --noconfirm --needed ufw gufw
 sudo pacman -S --noconfirm --needed kcalc
+sudo pacman -S --noconfirm --needed filelight
 
 yay -S --noconfirm --needed paru
 paru -S --noconfirm --needed freefilesync-bin

@@ -31,6 +31,7 @@ sudo $pkmgr neovim
 sudo $pkmgr git
 sudo $pkmgr ffmpeg
 sudo $pkmgr gparted
+sudo $pkmgr filelight
 
 #arco
 sudo pacman -S --noconfirm --needed megasync-bin
