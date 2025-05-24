@@ -63,7 +63,5 @@ flatpak install -y org.videolan.VLC
 #https://freefilesync.org/download.php
 
 ### MEGASYNC
-#kubuntu
-#wget https://mega.nz/linux/repo/xUbuntu_24.10/amd64/megasync-xUbuntu_24.10_amd64.deb && sudo apt install "$PWD/megasync-xUbuntu_24.10_amd64.deb"
 #Linux Mint
 #wget https://mega.nz/linux/repo/xUbuntu_24.04/amd64/megasync-xUbuntu_24.04_amd64.deb && sudo apt install "$PWD/megasync-xUbuntu_24.04_amd64.deb"
