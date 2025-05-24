@@ -1,18 +1,17 @@
 #!/bin/bash
 
 # ARCO
-pkmgr="pacman -S --noconfirm --needed"
+#pkmgr="pacman -S --noconfirm --needed"
 # FEDORA
 #pkmgr="dnf -y"
 # KUBUNTU
-#pkmgr="apt install -y"
+pkmgr="apt install -y"
 
 sudo $pkmgr bat
 sudo $pkmgr btop
 sudo $pkmgr eza
 sudo $pkmgr fastfetch
 sudo $pkmgr fd-find
-#sudo $pkmgr fd
 sudo $pkmgr ffmpeg
 sudo $pkmgr filelight
 sudo $pkmgr fish
@@ -21,7 +20,6 @@ sudo $pkmgr git
 sudo $pkmgr gparted
 sudo $pkmgr imagemagick
 sudo $pkmgr kbackup
-sudo $pkmgr kwrite
 sudo $pkmgr micro
 sudo $pkmgr mpv
 sudo $pkmgr neovim
@@ -31,12 +29,13 @@ sudo $pkmgr tmux
 sudo $pkmgr wireshark
 sudo $pkmgr yt-dlp
 
-#arco
-#sudo pacman -S --noconfirm --needed megasync-bin
 
-flatpak install -y app.zen_browser.zen
-flatpak install -y com.brave.Browser
+#flatpak install -y app.zen_browser.zen
 #flatpak install -y com.calibre_ebook.calibre
+#flatpak install -y io.gitlab.librewolf-community
+#flatpak install -y org.geany.Geany
+#flatpak install -y org.kde.kdenlive
+flatpak install -y com.brave.Browser
 flatpak install -y com.github.tchx84.Flatseal
 flatpak install -y com.nextcloud.desktopclient.nextcloud
 flatpak install -y com.obsproject.Studio
@@ -46,13 +45,10 @@ flatpak install -y io.freetubeapp.FreeTube
 flatpak install -y io.github.flattool.Warehouse
 flatpak install -y io.github.giantpinkrobots.varia
 flatpak install -y io.github.shiftey.Desktop
-#flatpak install -y io.github.ungoogled_software.ungoogled_chromium
-#flatpak install -y io.gitlab.librewolf-community
 flatpak install -y md.obsidian.Obsidian
 flatpak install -y org.dupot.easyflatpak
-flatpak install -y org.geany.Geany
 flatpak install -y org.gnome.meld
-#flatpak install -y org.kde.kdenlive
+flatpak install -y org.kde.kwrite
 flatpak install -y org.kde.tokodon
 flatpak install -y org.keepassxc.KeePassXC
 flatpak install -y org.localsend.localsend_app
@@ -63,9 +59,11 @@ flatpak install -y org.signal.Signal
 flatpak install -y org.videolan.VLC
 
 
-### freefilesync ###
+### freefilesync
 #https://freefilesync.org/download.php
 
-### MEGASYNC ###
+### MEGASYNC
 #kubuntu
 #wget https://mega.nz/linux/repo/xUbuntu_24.10/amd64/megasync-xUbuntu_24.10_amd64.deb && sudo apt install "$PWD/megasync-xUbuntu_24.10_amd64.deb"
+#Linux Mint
+#wget https://mega.nz/linux/repo/xUbuntu_24.04/amd64/megasync-xUbuntu_24.04_amd64.deb && sudo apt install "$PWD/megasync-xUbuntu_24.04_amd64.deb"
