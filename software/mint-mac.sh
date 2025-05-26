@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# ARCO
-#pkmgr="pacman -S --noconfirm --needed"
-# FEDORA
-#pkmgr="dnf -y"
-# KUBUNTU
 pkmgr="apt install -y"
 
 sudo $pkmgr bat
@@ -42,11 +37,11 @@ flatpak install -y com.obsproject.Studio
 flatpak install -y com.spotify.Client
 flatpak install -y com.vivaldi.Vivaldi
 flatpak install -y io.freetubeapp.FreeTube
-flatpak install -y io.github.flattool.Warehouse
+#flatpak install -y io.github.flattool.Warehouse
 flatpak install -y io.github.giantpinkrobots.varia
 flatpak install -y io.github.shiftey.Desktop
 flatpak install -y md.obsidian.Obsidian
-flatpak install -y org.dupot.easyflatpak
+#flatpak install -y org.dupot.easyflatpak
 flatpak install -y org.gnome.meld
 flatpak install -y org.kde.kwrite
 flatpak install -y org.kde.tokodon
@@ -63,5 +58,5 @@ flatpak install -y org.videolan.VLC
 #https://freefilesync.org/download.php
 
 ### MEGASYNC
-#Linux Mint
+#Linux Mint 22
 #wget https://mega.nz/linux/repo/xUbuntu_24.04/amd64/megasync-xUbuntu_24.04_amd64.deb && sudo apt install "$PWD/megasync-xUbuntu_24.04_amd64.deb"
