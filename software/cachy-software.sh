@@ -22,7 +22,7 @@ sudo pacman -S --noconfirm --needed obs-studio
 sudo pacman -S --noconfirm --needed onlyoffice-bin
 sudo pacman -S --noconfirm --needed p7zip
 sudo pacman -S --noconfirm --needed partitionmanager
-sudo pacman -S --noconfirm --needed rate-mirrors-bin
+sudo pacman -S --noconfirm --needed rate-mirrors
 sudo pacman -S --noconfirm --needed ripgrep
 sudo pacman -S --noconfirm --needed rsync
 sudo pacman -S --noconfirm --needed tenacity
@@ -33,7 +33,6 @@ sudo pacman -S --noconfirm --needed unrar
 sudo pacman -S --noconfirm --needed unzip
 sudo pacman -S --noconfirm --needed vivaldi
 sudo pacman -S --noconfirm --needed vivaldi-ffmpeg-codecs
-sudo pacman -S --noconfirm --needed vivaldi-widevine
 sudo pacman -S --noconfirm --needed vlc
 sudo pacman -S --noconfirm --needed wireshark-qt
 sudo pacman -S --noconfirm --needed yt-dlp
@@ -56,7 +55,6 @@ paru -S --noconfirm --needed github-desktop-bin
 paru -S --noconfirm --needed megasync-bin
 paru -S --noconfirm --needed rustdesk-bin
 paru -S --noconfirm --needed spotify
-paru -S --noconfirm --needed ungoogled-chromium-bin
 
 #NON BIN
 paru -S --noconfirm --needed parabolic-qt
