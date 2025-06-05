@@ -27,7 +27,9 @@ sudo $pkmgr yt-dlp
 
 #flatpak install -y app.zen_browser.zen
 #flatpak install -y com.calibre_ebook.calibre
+#flatpak install -y io.github.flattool.Warehouse
 #flatpak install -y io.gitlab.librewolf-community
+#flatpak install -y org.dupot.easyflatpak
 #flatpak install -y org.geany.Geany
 #flatpak install -y org.kde.kdenlive
 flatpak install -y com.brave.Browser
@@ -36,12 +38,11 @@ flatpak install -y com.nextcloud.desktopclient.nextcloud
 flatpak install -y com.obsproject.Studio
 flatpak install -y com.spotify.Client
 flatpak install -y com.vivaldi.Vivaldi
+flatpak install -y flathub org.gnome.Showtime
 flatpak install -y io.freetubeapp.FreeTube
-#flatpak install -y io.github.flattool.Warehouse
 flatpak install -y io.github.giantpinkrobots.varia
 flatpak install -y io.github.shiftey.Desktop
 flatpak install -y md.obsidian.Obsidian
-#flatpak install -y org.dupot.easyflatpak
 flatpak install -y org.gnome.meld
 flatpak install -y org.kde.kwrite
 flatpak install -y org.kde.tokodon
