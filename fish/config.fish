@@ -35,7 +35,7 @@ function fish_prompt
 	echo -n '#'
     else
         set_color -o 2B5BB7 # Set foreground color to blue for regular user
-	echo -n '❯'
+	echo -n '>'
     end
 
     set_color normal # Reset color
