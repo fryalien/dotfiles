@@ -6,7 +6,7 @@ set fish_greeting ""
 
 function fish_prompt
     set_color -o 2B5BB7 # Set foreground color to blue
-    echo -n '┌─<'
+    echo -n '┌─╴'
 
     if test "$USER" = "root"
         set_color -o C80A12 # Set foreground color to red for root user
@@ -29,7 +29,7 @@ function fish_prompt
     set_color -o 2B5BB7
     echo '' # Newline in Fish shell
 
-    echo -n '└>'
+    echo -n '└╴'
     if test "$USER" = "root"
         set_color -o C80A12 # Set foreground color to red for root user
 	echo -n '#'
@@ -58,6 +58,12 @@ set fish_color_valid_path
 # ALIASES
 #-------------------------
 
+# INSTALL PACKAGES WITH FEDORA
+#abbr u 'sudo dnf upgrade'
+#abbr i 'sudo dnf install'
+#abbr pkr 'sudo dnf remove'
+#abbr pks 'sudo dnf search'
+
 # INSTALL PACKAGES WITH ARCH
 abbr u 'sudo pacman -Syu'
 abbr i 'sudo pacman -S'
@@ -67,6 +73,26 @@ abbr yi 'yay -S'
 abbr pi 'paru -S'
 abbr upall 'yay -Syu'
 abbr up 'paru -Syu --noconfirm; flatpak update -y'
+
+# INSTALL PACKAGES WITH UBUNTU
+#abbr u 'sudo apt update && sudo apt upgrade'
+#abbr i 'sudo apt install'
+#abbr pkr 'sudo apt remove'
+#abbr pks 'sudo apt search'
+
+# INSTALL PACKAGES WITH SUSE
+#abbr u 'sudo zypper update'
+#abbr i 'sudo zypper install'
+#abbr pkr 'sudo zypper remove'
+#abbr pks 'sudo zypper search'
+
+#INSTALL PACKAGES WITH MANDRAKE
+#abbr u 'sudo dnf dsync --refresh'
+#abbr dar 'sudo dnf autoremove'
+#abbr dcl 'dnf clean all'
+#abbr i 'sudo dnf install'
+#abbr pkr 'sudo dnf remove'
+#abbr pks 'sudo dnf search'
 
 # INSTALL PACKAGES WITH FLATPAK
 abbr f 'flatpak install'
@@ -108,8 +134,6 @@ abbr vd 'cd ~/Videos'
 abbr sd 'shutdown now'
 abbr re 'reboot'
 
-abbr x 'startx'
-
 # RESOLUTION
 abbr 4k 'xrandr -s 3840x2160'
 abbr hd 'xrandr -s 1920x1080'
@@ -143,6 +167,3 @@ export FZF_DEFAULT_OPTS="--preview 'bat --color=always --style=numbers {}' --bin
 export FZF_DEFAULT_COMMAND="fd --type f"
 export FZF_CTRL_T_OPTS="--preview='less {}' --height=100% --bind shift-up:preview-page-up,shift-down:preview-page-down"
 export FZF_COMPLETION_DIR_COMMANDS="cd pushd rmdir tree"
-
-# ZOXIDE settings
-zoxide init fish | source
