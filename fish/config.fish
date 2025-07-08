@@ -124,8 +124,12 @@ abbr yab 'cd ~/Downloads/; yt-dlp -x --audio-format mp3 -f bestaudio '
 abbr ya 'cd ~/Downloads/; yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 '
 abbr yv 'cd ~/Downloads/; yt-dlp '
 
-#mygit config
-abbr gdot 'git clone https://github.com/fryalien/dotfiles'
+#git stuff
+abbr gc 'git clone'
+abbr g-dots 'git clone https://github.com/fryalien/dotfiles'
+abbr g-lit 'git clone https://github.com/fryalien/lit'
+abbr g-hypr 'git clone https://github.com/fryalien/hyprland-dots'
+abbr g-notes 'git clone https://github.com/fryalien/notes'
 
 # PACMAN clean packages
 abbr pkcl 'sudo paccache -r'
