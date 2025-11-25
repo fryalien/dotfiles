@@ -55,6 +55,7 @@ paru -S --noconfirm --needed github-desktop-bin
 paru -S --noconfirm --needed megasync-bin
 paru -S --noconfirm --needed rustdesk-bin
 paru -S --noconfirm --needed spotify
+paru -S --noconfirm --needed upscayl-bin
 
 #NON BIN
 paru -S --noconfirm --needed parabolic-qt
