@@ -37,5 +37,9 @@ sudo $pkmgr wireshark-qt
 sudo $pkmgr yt-dlp
 
 # AUR
-paru -S --noconfirm --needed megasync-bin
-paru -S --noconfirm --needed freefilesync-bin
+yay -S --noconfirm --needed flatpak
+yay -S --noconfirm --needed megasync-bin
+yay -S --noconfirm --needed freefilesync-bin
+
+# Add flathub remote.
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
