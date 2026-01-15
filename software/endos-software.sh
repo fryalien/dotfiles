@@ -12,7 +12,6 @@ sudo $pkmgr fd
 sudo $pkmgr ffmpeg
 sudo $pkmgr filelight
 sudo $pkmgr fish
-sudo $pkmgr freefilesync
 sudo $pkmgr fzf
 sudo $pkmgr git
 sudo $pkmgr gparted
@@ -39,3 +38,4 @@ sudo $pkmgr yt-dlp
 
 # AUR
 paru -S --noconfirm --needed megasync-bin
+paru -S --noconfirm --needed freefilesync-bin

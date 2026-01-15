@@ -18,6 +18,7 @@ sudo $pkmgr tmux
 sudo $pkmgr wireshark
 sudo $pkmgr yt-dlp
 
+paru -S --noconfirm --needed freefilesync-bin
 
 flatpak install -y com.brave.Browser
 flatpak install -y com.vivaldi.Vivaldi
@@ -26,7 +27,3 @@ flatpak install -y org.localsend.localsend_app
 flatpak install -y org.onlyoffice.desktopeditors
 flatpak install -y org.qbittorrent.qBittorrent
 flatpak install -y org.videolan.VLC
-
-
-### freefilesync
-#https://freefilesync.org/download.php
