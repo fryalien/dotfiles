@@ -1,32 +1,40 @@
 #!/bin/bash
 
-# INSTALL PACKAGES
-sudo pacman -S --noconfirm --needed dos2unix
-sudo pacman -S --noconfirm --needed eza
-sudo pacman -S --noconfirm --needed fastfetch
-sudo pacman -S --noconfirm --needed filelight
-sudo pacman -S --noconfirm --needed fish
-sudo pacman -S --noconfirm --needed fzf
-sudo pacman -S --noconfirm --needed gparted
-sudo pacman -S --noconfirm --needed gzip
-sudo pacman -S --noconfirm --needed imagemagick
-sudo pacman -S --noconfirm --needed kbackup
-sudo pacman -S --noconfirm --needed kcalc
-sudo pacman -S --noconfirm --needed micro
-sudo pacman -S --noconfirm --needed p7zip
-sudo pacman -S --noconfirm --needed partitionmanager
-sudo pacman -S --noconfirm --needed rate-mirrors
-sudo pacman -S --noconfirm --needed ripgrep
-sudo pacman -S --noconfirm --needed rsync
-sudo pacman -S --noconfirm --needed ufw gufw
-sudo pacman -S --noconfirm --needed unace
-sudo pacman -S --noconfirm --needed unrar
-sudo pacman -S --noconfirm --needed unzip
-sudo pacman -S --noconfirm --needed wireshark-qt
-sudo pacman -S --noconfirm --needed yt-dlp
+pkmgr="pacman -S --noconfirm --needed"
 
-# EXTRA
-sudo pacman -S --noconfirm --needed freefilesync
+# INSTALL PACKAGES
+sudo $pkmgr bat
+sudo $pkmgr btop
+sudo $pkmgr dos2unix
+sudo $pkmgr eza
+sudo $pkmgr fastfetch
+sudo $pkmgr fd
+sudo $pkmgr ffmpeg
+sudo $pkmgr filelight
+sudo $pkmgr fish
+sudo $pkmgr freefilesync
+sudo $pkmgr fzf
+sudo $pkmgr git
+sudo $pkmgr gparted
+sudo $pkmgr gzip
+sudo $pkmgr imagemagick
+sudo $pkmgr kbackup
+sudo $pkmgr kcalc
+sudo $pkmgr micro
+sudo $pkmgr neovim
+sudo $pkmgr p7zip
+sudo $pkmgr partitionmanager
+sudo $pkmgr rate-mirrors
+sudo $pkmgr ripgrep
+sudo $pkmgr rsync
+sudo $pkmgr tldr
+sudo $pkmgr tmux
+sudo $pkmgr ufw gufw
+sudo $pkmgr unace
+sudo $pkmgr unrar
+sudo $pkmgr unzip
+sudo $pkmgr wireshark-qt
+sudo $pkmgr yt-dlp
 
 # AUR
 paru -S --noconfirm --needed megasync-bin
