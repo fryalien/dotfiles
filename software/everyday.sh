@@ -1,29 +1,26 @@
 #!/bin/bash
 
-# ARCO
+# ARCH
 pkmgr="pacman -S --noconfirm --needed"
 # FEDORA
 #pkmgr="dnf -y"
-# KUBUNTU
+# UBUNTU/DEBIAN
 #pkmgr="apt install -y"
 
 sudo $pkmgr bat
 sudo $pkmgr btop
 sudo $pkmgr eza
 sudo $pkmgr fastfetch
-sudo $pkmgr fd-find
-#sudo $pkmgr fd
+#sudo $pkmgr fd-find
+sudo $pkmgr fd
 sudo $pkmgr ffmpeg
-sudo $pkmgr filelight
 sudo $pkmgr fish
 sudo $pkmgr fzf
 sudo $pkmgr git
 sudo $pkmgr gparted
 sudo $pkmgr imagemagick
 sudo $pkmgr kbackup
-sudo $pkmgr kwrite
 sudo $pkmgr micro
-sudo $pkmgr mpv
 sudo $pkmgr neovim
 sudo $pkmgr ripgrep
 sudo $pkmgr tldr
@@ -31,23 +28,18 @@ sudo $pkmgr tmux
 sudo $pkmgr wireshark
 sudo $pkmgr yt-dlp
 
-#arco
-#sudo pacman -S --noconfirm --needed megasync-bin
-
-flatpak install -y app.zen_browser.zen
+# FLATPAK
 flatpak install -y com.brave.Browser
-#flatpak install -y com.calibre_ebook.calibre
+flatpak install -y com.calibre_ebook.calibre
 flatpak install -y com.github.tchx84.Flatseal
-flatpak install -y com.nextcloud.desktopclient.nextcloud
 flatpak install -y com.obsproject.Studio
-flatpak install -y com.spotify.Client
+#flatpak install -y com.spotify.Client
 flatpak install -y com.vivaldi.Vivaldi
 flatpak install -y io.freetubeapp.FreeTube
 flatpak install -y io.github.flattool.Warehouse
 flatpak install -y io.github.giantpinkrobots.varia
 flatpak install -y io.github.shiftey.Desktop
 #flatpak install -y io.github.ungoogled_software.ungoogled_chromium
-#flatpak install -y io.gitlab.librewolf-community
 flatpak install -y md.obsidian.Obsidian
 flatpak install -y org.dupot.easyflatpak
 flatpak install -y org.geany.Geany
@@ -61,7 +53,15 @@ flatpak install -y org.onlyoffice.desktopeditors
 flatpak install -y org.qbittorrent.qBittorrent
 flatpak install -y org.signal.Signal
 flatpak install -y org.videolan.VLC
-
+flatpak install -y org.kde.kwrite
+flatpak install -y io.mpv.Mpv
+flatpak install -y org.kde.filelight
+flatpak install -y com.bilingify.readest
+flatpak install -y com.github.johnfactotum.Foliate
+flatpak install -y no.mifi.losslesscut
+flatpak install -y org.flameshot.Flameshot
+#flatpak install -y org.freefilesync.FreeFileSync
+flatpak install -y io.github.ellie_commons.cherrypick
 
 ### freefilesync ###
 #https://freefilesync.org/download.php
