@@ -5,6 +5,7 @@
 #flatpak install -y nz.mega.MEGAsync
 #flatpak install -y org.freefilesync.FreeFileSync
 #flatpak install -y org.kde.kdenlive
+#flatpak install -y org.wireshark.Wireshark
 #flatpak install -y uk.org.greenend.chiark.sgtatham.putty
 flatpak install -y com.bilingify.readest
 flatpak install -y com.brave.Browser
@@ -46,7 +47,6 @@ flatpak install -y org.telegram.desktop
 flatpak install -y org.tenacityaudio.Tenacity
 flatpak install -y org.upscayl.Upscayl
 flatpak install -y org.videolan.VLC
-flatpak install -y org.wireshark.Wireshark
 
 # When KDE is not installed.
 #flatpak install -y org.kde.dolphin
