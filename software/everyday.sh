@@ -28,41 +28,6 @@ sudo $pkmgr tmux
 sudo $pkmgr wireshark
 sudo $pkmgr yt-dlp
 
-# FLATPAK
-flatpak install -y com.brave.Browser
-flatpak install -y com.calibre_ebook.calibre
-flatpak install -y com.github.tchx84.Flatseal
-flatpak install -y com.obsproject.Studio
-#flatpak install -y com.spotify.Client
-flatpak install -y com.vivaldi.Vivaldi
-flatpak install -y io.freetubeapp.FreeTube
-flatpak install -y io.github.flattool.Warehouse
-flatpak install -y io.github.giantpinkrobots.varia
-flatpak install -y io.github.shiftey.Desktop
-#flatpak install -y io.github.ungoogled_software.ungoogled_chromium
-flatpak install -y md.obsidian.Obsidian
-flatpak install -y org.dupot.easyflatpak
-flatpak install -y org.geany.Geany
-flatpak install -y org.gnome.meld
-#flatpak install -y org.kde.kdenlive
-flatpak install -y org.kde.tokodon
-flatpak install -y org.keepassxc.KeePassXC
-flatpak install -y org.localsend.localsend_app
-flatpak install -y org.nickvision.tubeconverter
-flatpak install -y org.onlyoffice.desktopeditors
-flatpak install -y org.qbittorrent.qBittorrent
-flatpak install -y org.signal.Signal
-flatpak install -y org.videolan.VLC
-flatpak install -y org.kde.kwrite
-flatpak install -y io.mpv.Mpv
-flatpak install -y org.kde.filelight
-flatpak install -y com.bilingify.readest
-flatpak install -y com.github.johnfactotum.Foliate
-flatpak install -y no.mifi.losslesscut
-flatpak install -y org.flameshot.Flameshot
-#flatpak install -y org.freefilesync.FreeFileSync
-flatpak install -y io.github.ellie_commons.cherrypick
-
 ### freefilesync ###
 #https://freefilesync.org/download.php
 
