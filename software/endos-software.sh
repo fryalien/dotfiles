@@ -21,6 +21,7 @@ sudo $pkmgr imagemagick
 sudo $pkmgr kbackup
 sudo $pkmgr kcalc
 sudo $pkmgr micro
+sudo $pkmgr ncdu
 sudo $pkmgr neovim
 sudo $pkmgr p7zip
 sudo $pkmgr partitionmanager

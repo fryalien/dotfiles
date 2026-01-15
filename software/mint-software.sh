@@ -21,6 +21,7 @@ sudo $pkmgr gparted
 sudo $pkmgr imagemagick
 sudo $pkmgr kbackup
 sudo $pkmgr micro
+sudo $pkmgr ncdu
 sudo $pkmgr neovim
 sudo $pkmgr ripgrep
 sudo $pkmgr tldr

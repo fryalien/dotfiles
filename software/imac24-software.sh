@@ -11,6 +11,7 @@ sudo $pkmgr fish
 sudo $pkmgr gparted
 sudo $pkmgr imagemagick
 sudo $pkmgr micro
+sudo $pkmgr ncdu
 sudo $pkmgr ripgrep
 sudo $pkmgr tldr
 sudo $pkmgr tmux
