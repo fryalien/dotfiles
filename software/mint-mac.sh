@@ -22,15 +22,16 @@ sudo $pkmgr ripgrep
 sudo $pkmgr tldr
 sudo $pkmgr tmux
 sudo $pkmgr wireshark
+sudo $pkmgr ttf-mscorefonts-installer
 sudo $pkmgr yt-dlp
 
 
 #flatpak install -y app.zen_browser.zen
-#flatpak install -y com.calibre_ebook.calibre
+flatpak install -y com.calibre_ebook.calibre
 #flatpak install -y io.github.flattool.Warehouse
 #flatpak install -y io.gitlab.librewolf-community
 #flatpak install -y org.dupot.easyflatpak
-#flatpak install -y org.geany.Geany
+flatpak install -y org.geany.Geany
 #flatpak install -y org.kde.kdenlive
 flatpak install -y com.brave.Browser
 flatpak install -y com.github.tchx84.Flatseal
