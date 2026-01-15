@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# REMOVE FROM EOS
+
+sudo pacman -Rns --noconfirm firefox
+sudo pacman -Rns --noconfirm firewalld
+sudo pacman -Rns --noconfirm meld
+
 pkmgr="pacman -S --noconfirm --needed"
 
 # INSTALL PACKAGES
@@ -40,6 +46,7 @@ sudo $pkmgr yt-dlp
 yay -S --noconfirm --needed flatpak
 yay -S --noconfirm --needed megasync-bin
 yay -S --noconfirm --needed freefilesync-bin
+yay -S --noconfirm --needed ttf-ms-fonts
 
 # Add flathub remote.
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
