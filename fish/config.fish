@@ -74,7 +74,7 @@ abbr fu 'flatpak update'
 abbr fr 'flatpak remove'
 abbr fs 'flatpak search'
 abbr fcl 'flatpak uninstall --unused'
-abbr fls 'flatpak list'
+abbr fls 'flatpak list --app --columns=application'
 
 
 # CLI COMMANDS
