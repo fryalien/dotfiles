@@ -39,7 +39,19 @@ yay -S virtualbox-ext-oracle
 **Add the user inside the VM to the needed group**
 
 ```
-sudo usermod -aG vboxsf y
+sudo gpasswd -a y vboxusers
 ```
 
 >y is my username
+
+---
+
+On the booted guest (inside the VM):
+
+```
+sudo pacman -S virtualbox-guest-utils
+```
+
+```
+sudo systemctl enable vboxservice.service
+```
