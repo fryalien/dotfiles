@@ -1,54 +1,59 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-# Install flatpaks.
-#flatpak install -y me.kozec.syncthingtk
-#flatpak install -y nz.mega.MEGAsync
-#flatpak install -y org.freefilesync.FreeFileSync
-#flatpak install -y org.kde.kdenlive
-#flatpak install -y org.wireshark.Wireshark
-#flatpak install -y uk.org.greenend.chiark.sgtatham.putty
-flatpak install -y com.bilingify.readest
-flatpak install -y com.brave.Browser
-flatpak install -y com.calibre_ebook.calibre
-flatpak install -y com.discordapp.Discord
-flatpak install -y com.github.debauchee.barrier
-flatpak install -y com.github.johnfactotum.Foliate
-flatpak install -y com.github.tchx84.Flatseal
-flatpak install -y com.obsproject.Studio
-flatpak install -y com.rustdesk.RustDesk
-flatpak install -y com.vivaldi.Vivaldi
-flatpak install -y com.vscodium.codium
-flatpak install -y eu.betterbird.Betterbird
-flatpak install -y flathub org.gnome.Showtime
-flatpak install -y io.freetubeapp.FreeTube
-flatpak install -y io.github.ellie_commons.cherrypick #Color picker
-flatpak install -y io.github.flattool.Warehouse
-flatpak install -y io.github.giantpinkrobots.varia
-flatpak install -y io.github.shiftey.Desktop #GitHub Desktop
-flatpak install -y io.github.ungoogled_software.ungoogled_chromium
-flatpak install -y io.mpv.Mpv
-flatpak install -y md.obsidian.Obsidian
-flatpak install -y no.mifi.losslesscut
-flatpak install -y org.dupot.easyflatpak
-flatpak install -y org.flameshot.Flameshot
-flatpak install -y org.geany.Geany
-flatpak install -y org.gnome.Lollypop
-flatpak install -y org.gnome.meld
-flatpak install -y org.kde.filelight
-flatpak install -y org.kde.kwrite
-flatpak install -y org.kde.tokodon
-flatpak install -y org.keepassxc.KeePassXC
-flatpak install -y org.localsend.localsend_app
-flatpak install -y org.nickvision.tubeconverter #Parabolic
-flatpak install -y org.onlyoffice.desktopeditors
-flatpak install -y org.qbittorrent.qBittorrent
-flatpak install -y org.signal.Signal
-flatpak install -y org.telegram.desktop
-flatpak install -y org.tenacityaudio.Tenacity
-flatpak install -y org.upscayl.Upscayl
-flatpak install -y org.videolan.VLC
+# Add flathub repo.
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+fi="flatpak install flathub -y"
+
+#$fi me.kozec.syncthingtk
+#$fi nz.mega.MEGAsync
+#$fi org.freefilesync.FreeFileSync
+#$fi org.kde.kdenlive
+#$fi org.wireshark.Wireshark
+#$fi uk.org.greenend.chiark.sgtatham.putty
+$fi com.bilingify.readest
+$fi com.brave.Browser
+$fi com.calibre_ebook.calibre
+$fi com.discordapp.Discord
+$fi com.github.debauchee.barrier
+$fi com.github.johnfactotum.Foliate
+$fi com.github.tchx84.Flatseal
+$fi com.obsproject.Studio
+$fi com.rustdesk.RustDesk
+$fi com.vivaldi.Vivaldi
+$fi com.vscodium.codium
+$fi eu.betterbird.Betterbird
+$fi flathub org.gnome.Showtime
+$fi io.freetubeapp.FreeTube
+$fi io.github.ellie_commons.cherrypick #Color picker
+$fi io.github.flattool.Warehouse
+$fi io.github.giantpinkrobots.varia
+$fi io.github.shiftey.Desktop #GitHub Desktop
+$fi io.github.ungoogled_software.ungoogled_chromium
+$fi io.mpv.Mpv
+$fi md.obsidian.Obsidian
+$fi no.mifi.losslesscut
+$fi org.dupot.easyflatpak
+$fi org.flameshot.Flameshot
+$fi org.geany.Geany
+$fi org.gnome.Lollypop
+$fi org.gnome.meld
+$fi org.kde.filelight
+$fi org.kde.kwrite
+$fi org.kde.tokodon
+$fi org.keepassxc.KeePassXC
+$fi org.localsend.localsend_app
+$fi org.nickvision.tubeconverter #Parabolic
+$fi org.onlyoffice.desktopeditors
+$fi org.qbittorrent.qBittorrent
+$fi org.signal.Signal
+$fi org.telegram.desktop
+$fi org.tenacityaudio.Tenacity
+$fi org.upscayl.Upscayl
+$fi org.videolan.VLC
+$fi com.github.tenderowl.frog
 
 # When KDE is not installed.
-#flatpak install -y org.kde.dolphin
-#flatpak install -y org.kde.kwrite
-#flatpak install -y org.kde.KStyle.Kvantum
+#$fi org.kde.dolphin
+#$fi org.kde.kwrite
+#$fi org.kde.KStyle.Kvantum
