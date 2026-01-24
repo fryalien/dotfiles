@@ -7,14 +7,16 @@
 # UBUNTU
 in="sudo apt install -y"
 
+$in fish
+$in fzf
+$in zoxide
+
 $in bat
 $in btop
 $in eza
 $in neofetch
 $in fd-find
 $in ffmpeg
-$in fish
-$in fzf
 $in git
 $in gparted
 $in imagemagick
@@ -25,9 +27,11 @@ $in neovim
 $in ripgrep
 $in tldr
 $in tmux
-$in wireshark
 $in ttf-mscorefonts-installer
 $in yt-dlp
+
+$in wireshark
+sudo usermod -a -G wireshark y
 
 ### freefilesync
 #https://freefilesync.org/download.php
