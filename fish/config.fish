@@ -150,3 +150,6 @@ export FZF_COMPLETION_DIR_COMMANDS="cd pushd rmdir tree"
 
 # ZOXIDE settings
 zoxide init fish | source
+
+# MICRO EDITOR THEME
+export "MICRO_TRUECOLOR=1"

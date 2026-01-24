@@ -26,6 +26,7 @@ $in git
 $in gparted
 $in gzip
 $in imagemagick
+$in jq
 $in kbackup
 $in kcalc
 $in micro
