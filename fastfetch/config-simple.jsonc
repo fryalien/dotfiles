@@ -3,6 +3,7 @@
   "modules": [
 
     "os",
+    "separator",
     "kernel",
 //    "uptime",
 //    "packages",
