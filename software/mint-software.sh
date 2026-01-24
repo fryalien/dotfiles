@@ -1,34 +1,33 @@
 #!/bin/bash
 
 # ARCH
-#pkmgr="pacman -S --noconfirm --needed"
+#in="sudo pacman -S --noconfirm --needed"
 # FEDORA
-#pkmgr="dnf install -y"
+#in="sudo dnf install -y"
 # UBUNTU
-pkmgr="apt install -y"
+in="sudo apt install -y"
 
-sudo $pkmgr bat
-sudo $pkmgr btop
-sudo $pkmgr eza
-sudo $pkmgr fastfetch
-sudo $pkmgr fd-find
-sudo $pkmgr ffmpeg
-sudo $pkmgr filelight
-sudo $pkmgr fish
-sudo $pkmgr fzf
-sudo $pkmgr git
-sudo $pkmgr gparted
-sudo $pkmgr imagemagick
-sudo $pkmgr kbackup
-sudo $pkmgr micro
-sudo $pkmgr ncdu
-sudo $pkmgr neovim
-sudo $pkmgr ripgrep
-sudo $pkmgr tldr
-sudo $pkmgr tmux
-sudo $pkmgr wireshark
-sudo $pkmgr ttf-mscorefonts-installer
-sudo $pkmgr yt-dlp
+$in bat
+$in btop
+$in eza
+$in neofetch
+$in fd-find
+$in ffmpeg
+$in fish
+$in fzf
+$in git
+$in gparted
+$in imagemagick
+$in kbackup
+$in micro
+$in ncdu
+$in neovim
+$in ripgrep
+$in tldr
+$in tmux
+$in wireshark
+$in ttf-mscorefonts-installer
+$in yt-dlp
 
 ### freefilesync
 #https://freefilesync.org/download.php
