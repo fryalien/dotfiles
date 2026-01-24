@@ -88,6 +88,7 @@ abbr efils 'efibootmgr'
 abbr efidel 'sudo efibootmgr --delete-bootnum --bootnum 000x'
 abbr d 'du -sh *'
 abbr sfi 'source ~/.config/fish/config.fish'
+abbr c 'clear'
 
 # INSTALLED
 abbr pla 'pacman -Qe > ~/Downloads/pacman-all-list.md'
@@ -103,6 +104,7 @@ abbr dw 'cd ~/Downloads'
 abbr dc 'cd ~/Documents'
 abbr pc 'cd ~/Pictures'
 abbr vd 'cd ~/Videos'
+abbr pu 'cd ~/Public'
 
 # POWER
 abbr sd 'shutdown now'
@@ -127,8 +129,6 @@ abbr yv 'cd ~/Downloads/; yt-dlp '
 #git stuff
 abbr gc 'git clone'
 abbr g-dots 'git clone https://github.com/fryalien/dotfiles'
-abbr g-lit 'git clone https://github.com/fryalien/lit'
-abbr g-hypr 'git clone https://github.com/fryalien/hyprland-dots'
 abbr g-notes 'git clone https://github.com/fryalien/notes'
 
 # PACMAN clean packages
