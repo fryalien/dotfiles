@@ -1,14 +1,19 @@
 #!/bin/bash
 
 # REMOVE FROM EOS
+rem="sudo pacman -Rns --noconfirm"
 
-sudo pacman -Rns --noconfirm firefox
-sudo pacman -Rns --noconfirm firewalld
-sudo pacman -Rns --noconfirm meld
+$rem firefox
+$rem firewalld
+$rem meld
 
+# INSTALL APPS
 in="sudo pacman -S --noconfirm --needed"
 
-# INSTALL PACKAGES
+$in fish
+$in fzf
+$in zoxide
+
 $in bat
 $in btop
 $in dos2unix
@@ -16,10 +21,7 @@ $in eza
 $in fastfetch
 $in fd
 $in ffmpeg
-$in filelight
-$in fish
 $in flatpak
-$in fzf
 $in git
 $in gparted
 $in gzip
@@ -30,7 +32,7 @@ $in micro
 $in ncdu
 $in neovim
 $in p7zip
-$in partitionmanager
+$in partitionmanager #KDE partition manager
 $in rate-mirrors
 $in ripgrep
 $in rsync
@@ -42,7 +44,6 @@ $in unrar
 $in unzip
 $in wireshark-qt
 $in yt-dlp
-$in zoxide
 
 # AUR
 aur="yay -S --noconfirm --needed"
@@ -55,6 +56,3 @@ $aur catppuccin-cursors-frappe
 $aur catppuccin-cursors-macchiato
 $aur catppuccin-cursors-mocha
 $aur paru
-
-# Add flathub remote.
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
