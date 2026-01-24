@@ -4,11 +4,11 @@ https://github.com/catppuccin/micro
 
 # DOWNLOAD
 
-https://github.com/catppuccin/micro/src
+https://github.com/catppuccin/micro/tree/main/themes
 
 # USAGE
 
-Copy your preferred flavor(s) from src/ to ~/.config/micro/colorschemes
+Copy your preferred flavor(s) from themes/ to ~/.config/micro/colorschemes
 
 Add
 
