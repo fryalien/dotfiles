@@ -1,0 +1,25 @@
+[General]
+Show_Labels=false
+Preferred_Height=436
+Number_Chips=3
+
+[Chip0]
+Name=coretemp-0
+Number=0
+
+[Chip0_Feature0]
+Address=0
+Name=Package id 0
+Color=#00B000
+Show=true
+Min=0
+Max=40
+
+[Chip1]
+Name=applesmc-300
+Number=1
+
+[Chip2]
+Name=ACPI
+Number=2
+

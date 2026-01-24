@@ -1,0 +1,25 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Sublime Text
+GenericName=Text Editor
+Comment=Sophisticated text editor for code, markup and prose
+Exec=/usr/bin/subl %F
+Terminal=false
+MimeType=text/plain;
+Icon=sublime-text
+Categories=TextEditor;Development;
+StartupNotify=true
+StartupWMClass=subl
+Actions=new-window;new-file;
+X-XFCE-Source=file:///usr/share/applications/sublime_text.desktop
+
+[Desktop Action new-window]
+Name=New Window
+Exec=/usr/bin/subl --launch-or-new-window
+OnlyShowIn=Unity;
+
+[Desktop Action new-file]
+Name=New File
+Exec=/usr/bin/subl --command new_file
+OnlyShowIn=Unity;

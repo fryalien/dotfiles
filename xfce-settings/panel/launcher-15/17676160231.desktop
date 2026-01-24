@@ -1,0 +1,30 @@
+[Desktop Entry]
+Name=Flameshot
+GenericName=Screenshot tool
+Comment=Powerful yet simple to use screenshot software.
+Keywords=flameshot;screenshot;capture;shutter;
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=/app/bin/flameshot org.flameshot.Flameshot
+Icon=org.flameshot.Flameshot
+Terminal=false
+Type=Application
+Categories=Graphics;
+StartupNotify=false
+StartupWMClass=flameshot
+Actions=Configure;Capture;Launcher;
+X-DBUS-StartupType=Unique
+X-DBUS-ServiceName=org.flameshot.Flameshot
+X-KDE-DBUS-Restricted-Interfaces=org.kde.kwin.Screenshot,org.kde.KWin.ScreenShot2
+X-Flatpak=org.flameshot.Flameshot
+X-XFCE-Source=file:///var/lib/flatpak/app/org.flameshot.Flameshot/x86_64/stable/f654e4bded4c3e172633e4c44524c729423d63a1f2ccf2e91a27f2622cb06195/export/share/applications/org.flameshot.Flameshot.desktop
+
+[Desktop Action Configure]
+Name=Configure
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=flameshot org.flameshot.Flameshot config
+
+[Desktop Action Capture]
+Name=Take screenshot
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=flameshot org.flameshot.Flameshot gui --delay 500
+
+[Desktop Action Launcher]
+Name=Open launcher
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=flameshot org.flameshot.Flameshot launcher

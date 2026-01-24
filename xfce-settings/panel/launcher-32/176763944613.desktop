@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=GitHub Desktop
+Comment=Extend your GitHub workflow beyond your browser with GitHub Desktop
+Exec=/usr/bin/github-desktop %U
+Terminal=false
+Type=Application
+Icon=github-desktop
+Categories=Development;
+MimeType=x-scheme-handler/x-github-client;x-scheme-handler/x-github-desktop-auth;x-scheme-handler/x-github-desktop-dev-auth;
+X-XFCE-Source=file:///usr/share/applications/github-desktop.desktop

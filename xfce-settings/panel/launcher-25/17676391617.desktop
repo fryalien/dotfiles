@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=FreeFileSync
+Exec="/opt/freefilesync/FreeFileSync" %F
+Icon=application-x-freefilesync-gui
+Terminal=false
+Categories=Utility;FileTools;Archiving;
+StartupNotify=true
+MimeType=application/x-freefilesync-gui;application/x-freefilesync-batch;
+Comment=Folder Comparison and Synchronization
+Path=
+X-XFCE-Source=file:///home/y/.local/share/applications/FreeFileSync.desktop

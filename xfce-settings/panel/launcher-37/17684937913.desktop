@@ -1,0 +1,26 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=betterbird --file-forwarding eu.betterbird.Betterbird @@u %u @@
+Icon=eu.betterbird.Betterbird
+Terminal=false
+Type=Application
+MimeType=message/rfc822;x-scheme-handler/mailto;application/x-xpinstall;application/x-extension-ics;text/calendar;text/vcard;text/x-vcard;x-scheme-handler/webcal;x-scheme-handler/webcals;x-scheme-handler/mid;
+StartupNotify=true
+StartupWMClass=eu.betterbird.Betterbird
+Categories=Network;Email;
+Actions=ComposeMessage;OpenAddressBook;
+Name=Betterbird
+Comment=Send and receive mail with Betterbird
+GenericName=Mail Client
+Keywords=Email;E-mail;Newsgroup;Feed;RSS;Thunderbird
+X-Flatpak=eu.betterbird.Betterbird
+X-XFCE-Source=file:///var/lib/flatpak/app/eu.betterbird.Betterbird/x86_64/stable/e793584a770739b840b8f8d3c9572b7851a7d463408b6a623dd24a0dc90fbd32/export/share/applications/eu.betterbird.Betterbird.desktop
+
+[Desktop Action ComposeMessage]
+Name=Write new message
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=betterbird eu.betterbird.Betterbird -compose
+
+[Desktop Action OpenAddressBook]
+Name=Open address book
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=betterbird eu.betterbird.Betterbird -addressbook
