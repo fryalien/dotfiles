@@ -60,7 +60,7 @@ set fish_color_valid_path
 
 # INSTALL PACKAGES WITH ARCH
 abbr u 'sudo pacman -Syu'
-abbr i 'sudo pacman -S'
+abbr i 'sudo pacman -S --needed'
 abbr pkr 'sudo pacman -Rs'
 abbr pks 'sudo pacman -Ss'
 abbr yi 'yay -S'
