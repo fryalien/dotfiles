@@ -65,8 +65,7 @@ abbr pkr 'sudo pacman -Rs'
 abbr pks 'sudo pacman -Ss'
 abbr yi 'yay -S'
 abbr pi 'paru -S'
-abbr upall 'yay -Syu'
-abbr up 'paru -Syu --noconfirm; flatpak update -y'
+abbr up 'yay -Syu --noconfirm; flatpak update -y'
 
 # INSTALL PACKAGES WITH FLATPAK
 abbr f 'flatpak install'
