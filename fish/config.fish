@@ -86,6 +86,7 @@ abbr ff 'fastfetch'
 abbr efils 'efibootmgr'
 abbr efidel 'sudo efibootmgr --delete-bootnum --bootnum 000x'
 abbr d 'du -sh *'
+abbr df 'df -h'
 abbr sfi 'source ~/.config/fish/config.fish'
 abbr c 'clear'
 
@@ -152,3 +153,6 @@ zoxide init fish | source
 
 # MICRO EDITOR THEME
 export "MICRO_TRUECOLOR=1"
+
+# NEW FISH CONFIG
+abbr dfi 'curl -L https://raw.githubusercontent.com/fryalien/dotfiles/refs/heads/main/fish/config.fish -o ~/.config/fish/config.fish; source ~/.config/fish/config.fish'
