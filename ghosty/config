@@ -1,0 +1,32 @@
+font-size = 21
+
+theme = TokyoNight
+
+#background-opacity = 0.8
+#background-blur = 90
+
+shell-integration-features = no-cursor,no-sudo,no-title
+gtk-titlebar = false
+
+mouse-hide-while-typing = true
+
+window-padding-balance = true
+window-save-state = always
+window-padding-x = 10
+window-padding-y = 10
+
+window-width = 93
+window-height = 23  
+
+keybind = ctrl+r=reload_config
+
+keybind = ctrl+up=new_split:up
+keybind = ctrl+down=new_split:down
+keybind = ctrl+left=new_split:left
+keybind = ctrl+right=new_split:right
+
+focus-follows-mouse = true
+
+copy-on-select = true
+
+keybind = performable:ctrl+shift+c=copy_to_clipboard
