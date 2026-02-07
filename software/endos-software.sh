@@ -1,15 +1,15 @@
 #!/bin/bash
 
-# REMOVE FROM EOS
+in="sudo pacman -S --noconfirm --needed"
+aur="yay -S --noconfirm --needed"
 rem="sudo pacman -Rns --noconfirm"
 
+# REMOVE FROM EOS
 $rem firefox
 $rem firewalld
 $rem meld
 
 # INSTALL APPS
-in="sudo pacman -S --noconfirm --needed"
-
 $in fish
 $in fzf
 $in zoxide
@@ -47,8 +47,6 @@ $in wireshark-qt
 $in yt-dlp
 
 # AUR
-aur="yay -S --noconfirm --needed"
-
 $aur megasync-bin
 $aur freefilesync-bin
 $aur ttf-ms-fonts
@@ -57,3 +55,4 @@ $aur catppuccin-cursors-frappe
 $aur catppuccin-cursors-macchiato
 $aur catppuccin-cursors-mocha
 $aur paru
+$aur plank-reloaded-git
