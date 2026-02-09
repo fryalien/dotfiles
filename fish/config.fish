@@ -156,3 +156,10 @@ export "MICRO_TRUECOLOR=1"
 
 # NEW FISH CONFIG
 abbr dfi 'curl -L https://raw.githubusercontent.com/fryalien/dotfiles/refs/heads/main/fish/config.fish -o ~/.config/fish/config.fish; source ~/.config/fish/config.fish'
+
+
+# DOWNLOAD GIT EOS-XFCE-VM
+abbr eosxvm 'cd ~/Public/; git clone https://github.com/fryalien/eos-xfce-vm.git'
+
+# DOWNLOAD GIT EOS-AUTO-INSTALL
+abbr eosa 'cd ~/Public/; git clone https://github.com/fryalien/eos-xfce-autoinstall'
