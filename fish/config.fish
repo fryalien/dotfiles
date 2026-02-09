@@ -63,7 +63,7 @@ abbr u 'sudo pacman -Syu'
 abbr i 'sudo pacman -S --needed'
 abbr pkr 'sudo pacman -Rs'
 abbr pks 'sudo pacman -Ss'
-abbr yi 'yay -S'
+abbr yi 'yay -S --needed'
 abbr pi 'paru -S'
 abbr up 'yay -Syu --noconfirm; flatpak update -y'
 
