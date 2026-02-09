@@ -127,9 +127,9 @@ abbr ya 'cd ~/Downloads/; yt-dlp --extract-audio --audio-format mp3 --audio-qual
 abbr yv 'cd ~/Downloads/; yt-dlp '
 
 #git stuff
-abbr gc 'git clone'
-abbr g-dots 'git clone https://github.com/fryalien/dotfiles'
-abbr g-notes 'git clone https://github.com/fryalien/notes'
+abbr gc 'cd ~/Public; git clone'
+abbr g-dots 'cd ~/Public; git clone https://github.com/fryalien/dotfiles'
+abbr g-notes 'cd ~/Public; git clone https://github.com/fryalien/notes'
 
 # PACMAN clean packages
 abbr pkcl 'sudo paccache -r'
